@@ -1,0 +1,18 @@
+﻿"Events"
+{
+	"player_death"
+	{
+		"userid"
+		{
+			"type"	"userid"
+			"credits"	"-1"
+			"text"	"{green}[Shop] {default}У вас забрали {green}{credits} {default}кредитов за смерть"
+		}
+		"attacker"
+		{
+			"type"	"userid"
+			"credits"	"5"
+			"text"	"{green}[Shop] {default}Вы получили {green}{credits} {default}кредитов за убийство"
+		}
+	}
+}

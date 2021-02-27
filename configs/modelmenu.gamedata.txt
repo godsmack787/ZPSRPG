@@ -1,0 +1,18 @@
+"Games"
+{
+	"#default"
+	{
+		"#supported"
+		{
+			"game"		"zps"
+		}
+		"Offsets"
+		{
+			"SetModel"
+			{
+				"windows"	"24"
+				"linux"		"25"
+			}
+		}
+	}
+}

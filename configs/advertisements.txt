@@ -1,0 +1,58 @@
+﻿// Advertisements 0.5
+// by Tsunami
+// 
+// Types
+// -----
+// C: Center message
+// H: Hint message
+// M: Menu message
+// S: Say message
+//    - Colors:  {DEFAULT}, {TEAM}, {GREEN}, {LIGHTGREEN}
+//    - Example: {GREEN}Current {LIGHTGREEN}Map: {DEFAULT}{CURRENTMAP}
+// T: Top message
+//    - Colors:  {WHITE},  {RED},  {GREEN}, {BLUE}, {YELLOW}, {PURPLE}, {CYAN},
+//               {ORANGE}, {PINK}, {OLIVE}, {LIME}, {VIOLET}, {LIGHTBLUE}
+//    - Example: {ORANGE} www.domain.com
+//
+// Flags (optional)
+// -----
+// Accepts flags of admins that will not see the advertisement.
+// When omitted everyone will see the advertisement.
+// When left empty only admins will see the advertisement.
+
+"Advertisements"
+{
+	"1"
+	{
+		"type"		"ST"
+		"text"		"{GREEN}Наша группа ВК:http://vk.com/hardmod787"
+	}
+	"2"
+	{
+		"type"		"ST"
+		"text"		"{GREEN}Наша группа в Steam:http://steamcommunity.com/groups/Hard-Mod"
+	}
+	"3"
+	{
+		"type"		"ST"
+		"text"		"{GREEN}{GREEN}Беспредел на сервере? Стань администратором! Права администратора всего за 300 р."
+	}
+	"4"
+	{
+		"type"		"S"
+		"text"		"{GREEN}Current {LIGHTGREEN}Map: {DEFAULT}{CURRENTMAP}"
+		"flags"		"z"
+	}
+	"5"
+	{
+		"type"		"T"
+		"text"		"{ORANGE} Admins: friendly fire is {BOOL:MP_FRIENDLYFIRE}."
+		"flags"		"z"
+	}
+	"6"
+	{
+		"type"		"ST"
+		"text"		"{GREEN}Hard-Mod Сервер: 37.204.132.190:27016"
+	}
+
+}

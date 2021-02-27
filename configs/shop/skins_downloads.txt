@@ -1,0 +1,9 @@
+materials\models\player\slow\amberlyn\re5\chris
+materials\models\player\slow\amberlyn\re5\Wesker
+materials\models\player\slow\amberlyn\re5\Jill
+materials\models\player\slow\amberlyn\re5\sheva
+
+models\player\slow\amberlyn\re5\chris
+models\player\slow\amberlyn\re5\Wesker
+models\player\slow\amberlyn\re5\Jill
+models\player\slow\amberlyn\re5\sheva
